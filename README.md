@@ -27,20 +27,9 @@ This is a Machine Learning project that predicts whether an SMS is **Spam** or *
 | MultinomialNB | 97.58% | 88.37% |
 | BernoulliNB | 97.87% | 89.72% |
 
-### 🖥️ Application
-
-The Tkinter application takes a message as input and predicts:
-
-**🟢 Ham Message**  
-**🔴 Spam Message**
 
 ### 🛠️ Technologies
 
 **Python | Pandas | NumPy | NLTK | Scikit-learn | TF-IDF | Joblib | Tkinter | Matplotlib | Seaborn**
 
-### 🚀 Future Improvements
 
-- Improve the GUI
-- Add prediction probability
-- Try more ML models
-- Deploy the project as a web application
