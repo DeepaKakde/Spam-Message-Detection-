@@ -83,13 +83,6 @@ These files are used to make predictions on new messages without training the mo
 
 **Prediction:** 🟢 **Ham Message**
 
-## 🚀 Future Improvements
-
-- Add prediction probability
-- Improve GUI design
-- Try more ML/NLP models
-- Deploy as a web application
-
 ## 👨‍💻 Project Summary
 
 This project helped me understand the complete Machine Learning workflow for a text classification problem — from **data cleaning and NLP to model training, evaluation, model saving and GUI deployment**.
