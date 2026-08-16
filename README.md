@@ -49,7 +49,7 @@ The user can:
 2. Click **Predict**
 3. Get the result as **Spam** or **Ham**
 
-![Spam Detection GUI](spam_messsage_detection_gui.png)
+![Spam Detection GUI](spam_message_detection_gui.png)
 
 ## 💾 Saved Files
 
