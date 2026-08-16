@@ -1,68 +1,46 @@
-# Spam Message Detection
+# 📩 Spam Message Detection Using NLP
 
-## About Project
+This is a Machine Learning project that predicts whether an SMS is **Spam** or **Ham (Normal Message)**.
 
-This is my Machine Learning project for detecting spam messages.
+### 🔹 What I did
+- Loaded and cleaned the SMS dataset
+- Removed duplicate messages
+- Used **NLTK** for text cleaning
+- Removed stopwords and special characters
+- Used **TF-IDF** to convert text into numerical features
+- Compared different **Naive Bayes** models
+- Selected **Multinomial Naive Bayes** for the final application
+- Saved the model using **Joblib**
+- Created a simple **Tkinter GUI** for prediction
 
-In this project, I used SMS messages and trained a machine learning model to identify whether a message is **Spam** or **Not Spam**.
+### 📊 Dataset
+- Total messages: **5572**
+- After removing duplicates: **5169**
+- Ham: **4516**
+- Spam: **653**
 
-I used **NLP** for cleaning the text and **TF-IDF** to convert the text into numerical values. After that, I trained the model and used it to predict new messages.
+### 🤖 Model Results
 
-## Technologies Used
+| Model | Test Accuracy | F1 Score |
+|---|---:|---:|
+| GaussianNB | 80.85% | 51.71% |
+| MultinomialNB | 97.58% | 88.37% |
+| BernoulliNB | 97.87% | 89.72% |
 
-* Python
-* Pandas
-* Scikit-learn
-* NLP
-* TF-IDF
-* Jupyter Notebook
+### 🖥️ Application
 
-## Dataset
+The Tkinter application takes a message as input and predicts:
 
-I used an SMS dataset which contains two types of messages:
+**🟢 Ham Message**  
+**🔴 Spam Message**
 
-* Spam
-* Ham (Not Spam)
+### 🛠️ Technologies
 
-## Working
+**Python | Pandas | NumPy | NLTK | Scikit-learn | TF-IDF | Joblib | Tkinter | Matplotlib | Seaborn**
 
-The project works in these steps:
+### 🚀 Future Improvements
 
-1. Load the SMS dataset.
-2. Clean the text messages.
-3. Convert text into numbers using TF-IDF.
-4. Train the machine learning model.
-5. Test the model.
-6. Give a prediction for a new message.
-
-## Example
-
-Input:
-
-`Congratulations! You have won a free prize.`
-
-Output:
-
-`Spam`
-
-Input:
-
-`Hey, are you free tomorrow?`
-
-Output:
-
-`Not Spam`
-
-## Files in this Project
-
-* `Spam Detection.ipynb` - Main notebook
-* `spam_ham.txt` - Dataset
-* `Spam_Detection_Model` - Saved machine learning model
-* `Spam_Detection_Tfidf_Vectorizer` - Saved TF-IDF vectorizer
-* `Text Cleaning` - Text cleaning file
-
-## Conclusion
-
-This project helped me understand how **Machine Learning and NLP** can be used for text classification. I also learned how to clean text, use TF-IDF, train a model and make predictions.
-
-
+- Improve the GUI
+- Add prediction probability
+- Try more ML models
+- Deploy the project as a web application
